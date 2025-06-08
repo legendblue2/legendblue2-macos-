@@ -3,9 +3,9 @@ services:
     image: dockurr/macos
     container_name: macos
     environment:
-      VERSION: "14"
+      VERSION: "13"
       DISK_SIZE: "400G"
-      RAM_SIZE: "5.2G"
+      RAM_SIZE: "5G"
       CPU_CORES: "4"
     devices:
       - /dev/kvm
